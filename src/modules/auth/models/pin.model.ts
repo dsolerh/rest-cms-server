@@ -30,5 +30,3 @@ Pin.init(
     tableName: "Pin",
   }
 );
-
-export function asociate() {}

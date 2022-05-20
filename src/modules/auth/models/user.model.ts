@@ -73,8 +73,3 @@ User.init(
     tableName: "User",
   }
 );
-
-export function asociate() {
-  User.belongsTo(sequelize.models.Role);
-  User.belongsTo(sequelize.models.User, { as: "Creator" });
-}

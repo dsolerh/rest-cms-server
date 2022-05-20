@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { WrapRequest } from "../../common/utilities/wrap-request";
-import { AuthController } from "./controller";
+import { AuthController } from "./controllers/auth.controller";
 
 const routes = Router();
 const path = "/auth";

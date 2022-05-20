@@ -34,8 +34,3 @@ Role.init(
     tableName: "Role",
   }
 );
-
-export function asociate() {
-  Role.hasMany(sequelize.models.User);
-  Role.belongsTo(sequelize.models.User, { as: "Creator" });
-}
